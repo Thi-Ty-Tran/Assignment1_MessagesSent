@@ -42,9 +42,9 @@
         <TextBox Grid.Row="2" Grid.Column="0" Name="messagesAverageResultLbl" Grid.ColumnSpan="3" Width="550" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" IsReadOnly="True" ToolTip="Displays the average messages sent per day" BorderBrush="Black" BorderThickness="2" FontWeight="Bold"/>
 
         <!-- Buttons -->
-        <Button Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="enterBtn" Content="Enter" FontSize="25" FontWeight="Bold" Background="Aquamarine" Click="enterBtn_Click" ToolTip="Press to enter value" TabIndex="1"/>
-        <Button Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="resetBtn" Content="Reset" FontSize="25" FontWeight="Bold" Background="Beige" Click="resetBtn_Click" ToolTip="Press to reset all values" TabIndex="2"/>
-        <Button Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="exitBtn" Content="Exit" FontSize="25" FontWeight="Bold" Background="PaleVioletRed" Click="exitBtn_Click" ToolTip="Press to exit app" TabIndex="3"/>
+        <Button Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="enterBtn" Content="_Enter" FontSize="25" FontWeight="Bold" Background="Aquamarine" Click="enterBtn_Click" ToolTip="Press to enter value" TabIndex="1"/>
+        <Button Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="resetBtn" Content="_Reset" FontSize="25" FontWeight="Bold" Background="Beige" Click="resetBtn_Click" ToolTip="Press to reset all values" TabIndex="2"/>
+        <Button Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Height="60" Name="exitBtn" Content="E_xit" FontSize="25" FontWeight="Bold" Background="PaleVioletRed" Click="exitBtn_Click" ToolTip="Press to exit app" TabIndex="3"/>
 
     </Grid>
 </Window>
