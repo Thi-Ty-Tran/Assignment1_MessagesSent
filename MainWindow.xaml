@@ -1,8 +1,8 @@
 ﻿<!--
     Name: Thi Ty Tran
     Date Created: Sep 22, 2024
-    Last modified: Sep , 2024 
     Description: Messages Sent App - Assignment 1
+    Last modified: Sep 27, 2024 
 -->
 
 <Window x:Class="MessagesSent.MainWindow"
