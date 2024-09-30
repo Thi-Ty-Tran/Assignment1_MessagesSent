@@ -49,13 +49,15 @@ namespace MessagesSent
             // Get input from the user
             string userInput = userInputTxtBox.Text;
 
-            // Do Validations:
+            // Do Validations
+            // Check if input is not blank
             if (isInputNotBlank(userInput))
             {
+                // Check if input is a valid number
                 if (isValidDouble(userInput))
                 {
                     double userInputDouble = Convert.ToDouble(userInput);
-
+                    // Check if input is within the valid range
                     if (isValidRange(minValue, maxValue, userInputDouble))
                     {
                         // Add input to multiline textbox
@@ -78,6 +80,7 @@ namespace MessagesSent
                             enterBtn.IsEnabled = false;
                             userInputTxtBox.IsEnabled = false;
                             double average = totalMessages / maxDay;
+                            // Display the calculated average
                             messagesAverageResultLbl.Text = $"Messages per day: {average:F1}";
 
                             // Set focus on Reset button
