@@ -2,7 +2,7 @@
     Name: Thi Ty Tran
     Date Created: Sep 22, 2024
     Description: Messages Sent App
-    Last modified: Sep 27, 2024
+    Last modified: Sep 28, 2024
  */
 
 using System.Text;
@@ -91,7 +91,7 @@ namespace MessagesSent
                 }
                 else
                 {
-                    MessageBox.Show("Input must be a number.");
+                    MessageBox.Show("Please enter a number between 0 and 10000.");
                 }
             }
             else
